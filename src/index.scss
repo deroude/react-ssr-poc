@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.rp-theme-box {
+    float: left;
+    margin: 1rem;
+    width: 30rem;
+    height: 20rem;
+    position: relative;
+    padding: 0;
+    img { 
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    h2 {
+        background-color: rgba(100, 100, 100, .3);
+        color: white;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin:0;
+        padding: .5rem 0 2rem 0;
+        z-index:10;
+    }
+    section {
+        display: none;
+    }
+    &.selected {
+        width: 90%;
+        height: auto;
+        padding: 2rem;
+        background-color:white;
+        img {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        h2 {
+            background:none;
+            color:inherit;
+            position: relative;
+            width: 100%;
+            margin: 0;
+            padding: .5rem 0 2rem .5rem;
+        }
+        section {
+            display: block;
+        }
+    }
+}
