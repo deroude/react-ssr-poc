@@ -2,10 +2,10 @@
 
 Use:
 `npm install`
-`npm run scss` -- will start monitoring for scss changes and render css files
-`npm run ssr` -- will create the build and start the server side
 
-`npm run native` to get a native bundle
+`npm run scss` -- will start monitoring for scss changes and render css files
+
+`npm run ssr` -- will create the build and start the server side
 
 # Problems
 
